@@ -1,0 +1,47 @@
+{% extends "index.html" %}
+
+{% block title %}Checker{%endblock%}
+
+{% block content %}
+<div class="row">
+    <div class="col-sm-9">
+        <div class="card border-0">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">កម្មវិធីត្រួតពិនិត្យអក្ខរាវិរុទ្ធសាស្រ្តាស្លឹករឹតខ្មែរ</h5>
+                <div class=" row my-5">
+                    <p class="card-text col-sm-2">ត្រួតពិនិត្យពាក្យ៖ </p>
+                    <form class="d-flex col-sm" role="search">
+                        <input aria-label="Search" class="form-control me-2" placeholder="សូមវាយបញ្ចូលពាក្យទីនេះ"
+                               type="search">
+                        <button class="btn btn-primary" style="width: 90pt" type="submit">
+                            ត្រួតពិនិត្យ
+                        </button>
+                    </form>
+                </div>
+                <div class="col-sm">
+                    <h6 class="card-title">លទ្ធផលត្រួតពិនិត្យ៖</h6>
+                    <div class="card mt-3" style="min-height: 100pt">
+                        <div class="card-body">
+                            <p class="card-text">With supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--                <a class="btn btn-primary" href="#">Go somewhere</a>-->
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-3">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a class="btn btn-primary" href="#">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
